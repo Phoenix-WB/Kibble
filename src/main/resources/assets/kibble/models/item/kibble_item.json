@@ -1,6 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "kibble:items/kibble_item"
+		"layer0": "kibble:item/kibble_item",
+		"layer1": "kibble:item/kibble_item_overlay"
 	}
 }

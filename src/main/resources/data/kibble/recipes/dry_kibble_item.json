@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "kibble:vegetables"
+		},
+		{
+			"tag": "kibble:vegetables"
+		},
+		{
+			"tag": "kibble:vegetables"
+		},
+		{
+			"tag": "kibble:vegetables"
+		}
+	],
+	"result": {
+		"item": "kibble:dry_kibble_item",
+		"count": 1
+	}
+}

@@ -18,7 +18,7 @@ public class KibbleRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isInput(ItemStack input) {
-		return input.getItem() == ItemInit.KIBBLE_ITEM.get();
+		return input.getItem() == ItemInit.DRY_KIBBLE_ITEM.get();
 	}
 
 	@Override

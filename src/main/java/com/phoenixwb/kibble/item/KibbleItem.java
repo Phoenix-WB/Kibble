@@ -46,9 +46,4 @@ public class KibbleItem extends Item {
 			TooltipFlag p_42991_) {
 		PotionUtils.addPotionTooltip(p_42988_, p_42990_, 1.0F);
 	}
-
-	@Override
-	public boolean isFoil(ItemStack p_42999_) {
-		return super.isFoil(p_42999_) || PotionUtils.getPotion(p_42999_).isFoil(p_42999_);
-	}
 }

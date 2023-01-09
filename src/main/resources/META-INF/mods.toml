@@ -6,7 +6,7 @@ license="MIT"
 modId="kibble" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="Kibble" #mandatory
-logoFile="kibble.png" #optional
+logoFile="kibble.gif" #optional
 authors="Phoenix WB" #optional
 displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 

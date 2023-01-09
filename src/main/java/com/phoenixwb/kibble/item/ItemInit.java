@@ -10,6 +10,9 @@ import net.minecraftforge.registries.RegistryObject;
 public class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Kibble.MODID);
 
+	public static final RegistryObject<Item> DRY_KIBBLE_ITEM = ITEMS.register("dry_kibble_item",
+			() -> new Item(new Item.Properties().stacksTo(1)));
+
 	public static final RegistryObject<Item> KIBBLE_ITEM = ITEMS.register("kibble_item",
 			() -> new KibbleItem(new Item.Properties().stacksTo(1)));
 }
